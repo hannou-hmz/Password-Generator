@@ -1,3 +1,4 @@
+
 body{
     display: flex;
     justify-content: center;
@@ -9,20 +10,26 @@ body{
     background-position:center;
     background-size: cover;
     margin: 0;
+    overflow-x: hidden;
 }
 
 .container{
+    min-width: 300px;
     display: flex;
     flex-direction: column;
+    flex: wrap;
     justify-content: center;
     align-items: center;
-    flex-wrap: nowrap;
-    white-space: nowrap;
-    flex-shrink: 0;
     border-radius: 15px;
     padding: 40px;
     background-color: white;
     transition: 0.6s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 20px;  /* Increase padding on smaller screens */
+    }
 }
 
 .container:hover{

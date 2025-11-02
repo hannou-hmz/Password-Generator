@@ -1,0 +1,129 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("images/gradient-black-background-with-wavy-lines_23-2149146379.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    flex-shrink: 0;
+    border-radius: 15px;
+    padding: 40px;
+    background-color: white;
+    transition: 0.6s ease-in-out;
+}
+
+.container:hover{
+    transform: scale(1.15);
+}
+
+#pic{
+    width: 80px;
+}
+
+h1{
+    margin: 0;
+}
+
+.header p{
+    margin: 0;
+    font-size: 18px;
+}
+
+.header{
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.generator-bar #bar-input{
+    width: 300px;
+    padding: 7px 10px;
+    border-width: 1.4px;
+    border-radius: 12px;
+}
+
+.generator-bar #generate{
+    background-color: rgb(41, 202, 178);
+    padding: 7px 10px;
+    border: none;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.generator-bar #generate:hover{
+    opacity: 0.6;
+}
+
+.generator-bar #reset-img{
+    width: 30px;
+    vertical-align: top;
+}
+
+.slider p{
+    text-align: center;
+    margin: 0 0 5px 0;
+}
+
+.slider {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#passLength {
+    width: 300px;
+    -webkit-appearance: none;
+    appearance: none; 
+    background: transparent;
+}
+
+#passLength::-webkit-slider-runnable-track {
+    height: 3px;
+    background: #cbcbcb;
+    border-radius: 3px;
+}
+
+#passLength::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background: rgb(41, 202, 178); 
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: -6px; 
+}
+
+.checkboxes{
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.checkboxes .upper-box , .lower-box , .nums-box , .special-box {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.checkboxes #upper , #lower , #nums , #special{
+    width: 14px;
+    border-color: rgb(41, 202, 178);;
+    accent-color: rgb(41, 202, 178);
+}
+
+

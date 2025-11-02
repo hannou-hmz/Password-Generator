@@ -20,7 +20,7 @@ This is a secure and customizable password generator that allows users to genera
 - **JavaScript**: For functionality and logic behind password generation.
 
 ## How to Use
-1. **Copy this link to your browser** : " https://hannou-hmz.github.io/Password-Generator/"
+1. **Copy this link to your browser** : "  https://hannou-hmz.github.io/Password-Generator/"
 2. **Choose Options**: Select at least one of the following options to customize the password:
    - Uppercase letters
    - Lowercase letters

@@ -34,4 +34,13 @@ This is a secure and customizable password generator that allows users to genera
 
 **Hamza Hannou**  
 Software Engineer at Üsküdar University  
-Email: [hhannou06@gmail.com]
+Email: <hhannou06@gmail.com>
+
+---
+
+## License & Usage Terms
+
+© 2025 **Hamza Hannou**
+
+This project is for **learning and personal portfolio purposes only**.  
+**No copying, modification, or redistribution is allowed** without explicit written permission from the author.
